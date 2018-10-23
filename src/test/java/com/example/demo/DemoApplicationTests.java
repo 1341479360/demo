@@ -36,9 +36,12 @@ public class DemoApplicationTests {
         model.addAttribute("name", "zhangsan");
 
 
+        System.out.println("已经更改");
         User u = new User();
         model.addAttribute("user", u);
         return "index";
+
+
 
 
     }
